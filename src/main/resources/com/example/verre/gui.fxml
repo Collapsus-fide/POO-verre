@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.verre.Controller">
+   <children>
+      <Rectangle fx:id="rect" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="335.0" layoutX="14.0" layoutY="33.0" rotate="180.0" stroke="BLACK" strokeType="INSIDE" width="279.0" />
+      <Button fx:id="bstart" layoutX="417.0" layoutY="343.0" mnemonicParsing="false" onAction="#demarre" text="demarrer" />
+      <TextArea fx:id="message" layoutX="305.0" layoutY="33.0" prefHeight="305.0" prefWidth="285.0" />
+   </children>
+</AnchorPane>
